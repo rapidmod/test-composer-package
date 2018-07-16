@@ -2,6 +2,7 @@
   "name": "rapidmod/test-composer-package",
   "description": "Active Record Style Database Manager",
   "version" : "0.0.1-dev",
+  "minimum-stability": "dev",
   "require": {
     "php": ">=7"
   },
