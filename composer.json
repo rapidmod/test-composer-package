@@ -1,19 +1,27 @@
 {
-    "name": "Rapidmod/php-mysql",
-    "description": "Active Record Style Database Manager",
-    "require": {
-        "php": ">=7"
-    },
-    "authors": [
-        {
-            "name": "Rapidmod"
-        }
-    ],
-    "minimum-stability": "stable",
-
-    "autoload": {
-        "psr-4": {
-            "Rapidmod\\": "src/"
-        }
+  "name": "rapidmod/test-composer-package",
+  "description": "Active Record Style Database Manager",
+  "version" : "0.0.1-dev",
+  "require": {
+    "php": ">=7"
+  },
+  "authors": [
+    {
+      "name": "Rapidmod"
     }
+  ],
+  "repositories": [
+
+    {
+      "type": "vcs",
+      "url": "https://github.com/Seldaek/monolog"
+    }
+  ],
+  "prefer-stable": true,
+
+  "autoload": {
+    "psr-4": {
+      "Rapidmod\\": "src/"
+    }
+  }
 }

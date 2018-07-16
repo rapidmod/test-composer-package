@@ -49,8 +49,8 @@ class Model extends \Rapidmod\Data\Model
 		//return $this->Table()->search($params,get_called_class());
 	}
 
-	private function setTable($t,$o = array()){
-		return $this->_TABLE = new $t($o);
+	public function setTable(\Rapidmod\Mysql\Table $TableModel){
+		return $this->_TABLE = $TableModel;
 	}
 	/**
 	 *
